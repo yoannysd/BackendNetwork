@@ -1,0 +1,13 @@
+#image: host/asd:maven
+
+#stages:
+#  - build
+
+#build_auth:
+#  stage: build
+#  script:
+#    - mvn -f api-network/pom.xml package
+#  artifacts:
+#    paths:
+#      - api-network/target/*.jar
+#    expire_in: 10 days
