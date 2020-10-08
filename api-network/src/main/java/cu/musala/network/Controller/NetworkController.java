@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
 @RestController
-@RequestMapping(value = "/network/api", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
+@RequestMapping(value = "/network/api", produces = MediaType.APPLICATION_JSON_VALUE)
 @CrossOrigin(
         allowCredentials = "",
         allowedHeaders = {},

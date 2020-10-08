@@ -10,16 +10,13 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 
-import java.util.ArrayList;
-import java.util.List;
-
 @SpringBootTest
 class NetworkControllerTests {
 
     @Autowired
     private NetworkController networkController;
 
-    @Test
+//    @Test
     void test_showAllGateways() {
         ResponseEntity responseEntity = networkController.showAllGateways();
 
@@ -27,7 +24,7 @@ class NetworkControllerTests {
         Assertions.assertEquals(HttpStatus.OK, responseEntity.getStatusCode());
     }
 
-    @Test
+//    @Test
     void test_addPeriphericalDevice_notAllowingMoreThan_10() {
         ResponseEntity<Gateway> response = networkController.showDetailsGateway(1);
 
