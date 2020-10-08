@@ -1,14 +1,14 @@
-#backend-network
-/backend-network/logs/
-/backend-network/target/
-!backend-network/.mvn/wrapper/maven-wrapper.jar
-/backend-network/.idea
-/backend-network/nbproject/private/
-/backend-network/build/
-/backend-network/nbbuild/
-/backend-network/dist/
-/backend-network/nbdist/
-/backend-network/.nb-gradle/
+#api-network
+/api-network/logs/
+/api-network/target/
+!api-network/.mvn/wrapper/maven-wrapper.jar
+/api-network/.idea
+/api-network/nbproject/private/
+/api-network/build/
+/api-network/nbbuild/
+/api-network/dist/
+/api-network/nbdist/
+/api-network/.nb-gradle/
 
 ### STS ###
 .apt_generated
